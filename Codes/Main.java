@@ -14,6 +14,7 @@ public class Main {
             exit = "";
             num = s.nextInt();
         }
+        s.close();
     }      
 }
  

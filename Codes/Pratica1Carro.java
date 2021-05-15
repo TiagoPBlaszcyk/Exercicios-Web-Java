@@ -1,24 +1,24 @@
-class Carro {
+class Pratica1Carro {
 			
 	String tipo;
 	String cor;
 	String placa;
 	int numPortas;
 	int cambio;
-	Pessoa dono;
+	Pratica1Pessoa dono;
 
-    public Carro(String tipo, String cor, String placa, int numPortas){
+    public Pratica1Carro(String tipo, String cor, String placa, int numPortas){
 		this.tipo = tipo;
 		this.cor = cor;
         this.placa = placa;
         this.numPortas = numPortas;
 	}
 	
-	Pessoa getDono(){
+	Pratica1Pessoa getDono(){
 		return dono;
 	}
 
-	void setDono(Pessoa dono){
+	void setDono(Pratica1Pessoa dono){
 		this.dono = dono;
 	}
 

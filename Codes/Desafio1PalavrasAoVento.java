@@ -1,4 +1,7 @@
-public class DesafioPalavrasAoVento {
+// Desafio de Gerar vetor de palavras aleatorias e vetor numeros aletorios, organizalos em ordem
+// alfabetica e sequencial.
+
+public class Desafio1PalavrasAoVento {
 
     public static void main(String[] args) {
 
@@ -7,15 +10,15 @@ public class DesafioPalavrasAoVento {
 
         // Numb e text serao meus arrays que estao fora de ordem
         int quantidade = 10;
-        int[] numb = Auxiliar.nazare(quantidade);
-        String[] text = Auxiliar.tazmania(quantidade);
+        int[] numb = Desafio1Auxiliar.nazare(quantidade);
+        String[] text = Desafio1Auxiliar.tazmania(quantidade);
 
         System.out.println("\n");
         // Imprime os vetor de numeros
-        Auxiliar.imprimirnumeros(numb);
+        Desafio1Auxiliar.imprimirnumeros(numb);
 
         // Imprime os vetor strings
-        Auxiliar.imprimirpalavras(text);
+        Desafio1Auxiliar.imprimirpalavras(text);
 
         // Organiza o vetor numb em numeros
 
@@ -65,8 +68,8 @@ public class DesafioPalavrasAoVento {
 
         System.out.println("Organizado!\n");
 
-        Auxiliar.imprimirnumeros(numb);
-        Auxiliar.imprimirpalavras(text);
+        Desafio1Auxiliar.imprimirnumeros(numb);
+        Desafio1Auxiliar.imprimirpalavras(text);
     }
 
 }

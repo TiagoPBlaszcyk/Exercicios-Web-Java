@@ -1,4 +1,4 @@
-public class Endereco { 
+public class Pratica1Endereco { 
 	public String rua; 
 	public int numero; 
 	public String bairro; 
@@ -6,7 +6,7 @@ public class Endereco {
 	public String estado; 
 	public String cep; 
 
-	public Endereco(String rua, int numero, String bairro, String cidade, String estado, String cep) {
+	public Pratica1Endereco(String rua, int numero, String bairro, String cidade, String estado, String cep) {
 		this.rua = rua;
 		this.numero = numero;
         this.bairro = bairro;

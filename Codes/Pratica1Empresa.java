@@ -1,10 +1,10 @@
-public class Empresa{
+public class Pratica1Empresa{
 
 	public static void main(String[] args) throws Exception{
 
-		Carro sportpreto = new Carro("esportivo", "preto", "MHX 1234", 4);
-		Pessoa nomeDono = new Pessoa("Camila", "(31)13 123-13-13", 27);
-		Endereco localizacao = new Endereco("Ape", 123, "Sants", "Flauze", "Zenta" , "93.312.432-020");
+		Pratica1Carro sportpreto = new Pratica1Carro("esportivo", "preto", "MHX 1234", 4);
+		Pratica1Pessoa nomeDono = new Pratica1Pessoa("Camila", "(31)13 123-13-13", 27);
+		Pratica1Endereco localizacao = new Pratica1Endereco("Ape", 123, "Sants", "Flauze", "Zenta" , "93.312.432-020");
 	
 		sportpreto.setDono(nomeDono);	
 		nomeDono.setVeiculo(sportpreto);

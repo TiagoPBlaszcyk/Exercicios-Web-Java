@@ -1,4 +1,4 @@
-class Auxiliar {
+class Desafio1Auxiliar {
 
     public static int random (int quantidade) {
         int random = (int)(Math.random() * quantidade ) + 1;

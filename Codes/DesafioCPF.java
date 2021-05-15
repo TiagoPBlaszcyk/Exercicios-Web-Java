@@ -1,3 +1,5 @@
+// Tiras os "." e "-" de uma entrada 000.000.000-00 quebrando linha a cada remoção.
+
 import java.util.Scanner;
 import java.util.Locale;
 

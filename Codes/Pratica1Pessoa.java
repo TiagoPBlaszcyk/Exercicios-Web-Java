@@ -1,30 +1,30 @@
-public class Pessoa { 
+public class Pratica1Pessoa { 
 	public String nome; 
 	public String telefone; 
 	public int idade;
-	public Endereco residencia;
+	public Pratica1Endereco residencia;
 	
-	Carro veiculo;
+	Pratica1Carro veiculo;
 
-    public Pessoa(String nome, String telefone, int idade) {
+    public Pratica1Pessoa(String nome, String telefone, int idade) {
         this.nome = nome;
 		this.telefone = telefone;
         this.idade = idade;
     }
 
-    Endereco getEndereco() {
+    Pratica1Endereco getEndereco() {
         return residencia;
     }
 
-    void setEndereco(Endereco endereco) {
+    void setEndereco(Pratica1Endereco endereco) {
         this.residencia = endereco;
     }
 
-    Carro getVeiculo(){
+    Pratica1Carro getVeiculo(){
         return veiculo;
     }
 
-    void setVeiculo(Carro carro){
+    void setVeiculo(Pratica1Carro carro){
         this.veiculo = carro;
     }
 

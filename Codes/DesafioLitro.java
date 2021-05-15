@@ -1,6 +1,8 @@
+// Desafio da DIO bootcamp Anyware Solucionando desafios matemáticos em Java
+
 import java.util.Scanner;
 import java.util.Locale;
-class litro{
+class DesafioLitro{
 	public static void main(String[] args){
 
         Locale.setDefault(new Locale("en", "US"));

@@ -1,4 +1,6 @@
-public class Labirinto { 
+// Busca cega atras da Dory
+
+public class JogoLabirinto { 
     private static final char LINHA = 10; 
     private static final char COLUNA = 10; 
     private static final double PROBABILIDADE = 0.7;
