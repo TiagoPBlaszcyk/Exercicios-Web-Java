@@ -8,7 +8,7 @@ public class E extends D{
 
     public static void main(String[] args) {
 
-        E x = new E();
+        new E();
 
     }
 
